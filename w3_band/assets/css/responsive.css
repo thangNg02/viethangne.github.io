@@ -1,0 +1,118 @@
+/* PC */
+@media (min-width: 1024px) {
+    #mobile-menu {
+        display: none;
+    }
+}
+
+
+/* TABLET */
+@media (min-width: 740px) and (max-width: 1023px) {
+    #mobile-menu {
+        display: none;
+    }
+
+    .tickets-btn {
+        padding: 15px 16px;
+    }
+
+    .modal-tickets {
+        margin: 0 100px;
+        margin-top: -200px;
+    }
+
+    .form-control {
+        padding: 15px 12px;
+    }
+}
+
+/* TABLET & MOBILE */
+@media (max-width: 1023px) {
+    #nav .subnav a {
+        line-height: 48px;
+    }
+
+    .band-in4 {
+        line-height: 2;
+    }
+
+    #footer .footer-icon a {
+        font-size: 46px;
+        margin: 0 16px;
+    }
+
+    #footer .footer-text a {
+        padding: 16px 0;
+    }
+
+
+}
+
+/* MOBILE */
+@media (max-width: 739px) {
+    .mt-16 {
+        margin-top: 16px;
+    }
+
+    #header {
+        overflow: hidden;
+    }
+
+    #header .nav-icon {
+        display: none;
+    }
+
+    #nav {
+        display: block;
+    }
+
+    #nav > li {
+        display: block;
+    }
+
+    #nav > li:first-child {
+        display: inline-block;
+    }
+
+    #nav .subnav {
+        position: initial;
+        background-color: rgb(37, 37, 39);
+    }
+
+    #nav .subnav a {
+        color: white;
+        padding: 4px 40px;
+    }
+
+    #slider .slider-content {
+        display: none;
+    }
+
+    .members-item {
+        width: 100%;
+    }
+
+    .members-img {
+        width: 60%;
+        height: 250px;
+        object-fit: cover;
+        margin-bottom: 16px;
+    }
+
+    .place {
+        width: 100%;
+        margin-bottom: 16px;
+    }
+
+    .band-in4,
+    .user-in4,
+    .send-btn,
+    .tickets-btn,
+    .user-in4-mobile {
+        width: 100%;
+    }
+       
+    .modal-tickets {
+        margin:0 10px;
+    }
+}
